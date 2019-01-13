@@ -1,25 +1,8 @@
 [
   {
-    "name": "Gfx",
+    "name": "Conrod",
     "tags": [
-      "graphics"
-    ]
-  },
-  {
-    "name": "Gtk",
-    "description": "Rust bindings and wrappers for GLib, GDK 3, GTK+ 3 and Cairo.",
-    "tags": [
-      "Bindings"
-    ]
-  },
-  {
-    "name": "Webrender",
-    "skip_crates_io": true,
-    "repo": "https://github.com/servo/webrender",
-    "description": "GPU renderer for web content, used by Servo.",
-    "docs": "https://doc.servo.org/webrender/index.html",
-    "tags": [
-      "webrender"
+      "Immediate mode API"
     ]
   },
   {
@@ -29,9 +12,54 @@
     ]
   },
   {
-    "name": "Conrod",
+    "name": "WebRender",
+    "docs": "https://doc.servo.org/webrender/index.html",
     "tags": [
-      "Immediate mode API"
+      "webrender"
+    ]
+  },
+  {
+    "name": "druid",
+    "description": "Druid is a new Rust-native UI toolkit, still in early stages. Its main goal is performance, also aiming for small binary size and compile time, fast startup, and very easy build configuration (just cargo run). It is currently Windows-only, but with hope for porting.",
+    "tags": []
+  },
+  {
+    "name": "OrbTk",
+    "description": "The Orbital Widget Toolkit is a multi platform (G)UI toolkit for building scalable user interfaces with the programming language Rust. It's based on the Entity Component System Pattern and provides a functional-reactive API.",
+    "tags": [
+      "webrender"
+    ]
+  },
+  {
+    "name": "rust-qt-binding-generator",
+    "tags": [
+      "Bindings",
+      "Qt",
+      "QML"
+    ]
+  },
+  {
+    "name": "qmetaobject",
+    "tags": [
+      "Bindings",
+      "Qt",
+      "QML"
+    ]
+  },
+  {
+    "name": "relm",
+    "tags": [
+      "Bindings",
+      "GTK"
+    ]
+  },
+  {
+    "name": "GTK",
+    "description": "Rust bindings and wrappers for GLib, GDK 3, GTK+ 3 and Cairo.",
+    "docs": "https://gtk-rs.org/docs-src/",
+    "tags": [
+      "Bindings",
+      "GTK"
     ]
   }
 ]
